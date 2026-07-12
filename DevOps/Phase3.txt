@@ -1,0 +1,273 @@
+PHASE 3: VERSION CONTROL & CI/CD (Days 21–30)
+Day 21 – Git Fundamentals
+📘 Theory
+Introduction to Version Control Systems (VCS)
+Local, Centralized, and Distributed Version Control
+What is Git?
+Git Architecture
+Installing Git
+Git Configuration
+Working Directory, Staging Area, Repository
+Git Workflow
+Common Git Commands
+Best Practices
+🛠 Hands-On
+Install Git
+Configure Git Username & Email
+Initialize Local Repository
+Create Files
+git init
+git status
+git add
+git commit
+git log
+git diff
+Modify Existing Files
+Commit Changes
+View Commit History
+🎯 Learning Goal
+
+Understand Git fundamentals and manage source code locally.
+
+Day 22 – GitHub Fundamentals
+📘 Theory
+Introduction to GitHub
+Git vs GitHub
+Repository Types
+Public vs Private Repository
+GitHub Interface
+SSH vs HTTPS Authentication
+Repository Management
+README and .gitignore
+GitHub Best Practices
+🛠 Hands-On
+Create GitHub Account
+Create Repository
+Clone Repository
+Push Local Repository
+Pull Repository
+Create README
+Add .gitignore
+Create Branch
+Commit Changes
+Push Branch
+🎯 Learning Goal
+
+Collaborate using GitHub repositories.
+
+Day 23 – Git Advanced & Collaboration
+📘 Theory
+Branching Strategy
+Git Flow
+Feature Branch Workflow
+Merge vs Rebase
+Fast Forward Merge
+Cherry Pick
+Stash
+Tags
+Pull Requests
+Merge Conflicts
+Code Review Process
+🛠 Hands-On
+Create Multiple Branches
+Merge Branches
+Resolve Merge Conflicts
+Perform Git Rebase
+Use Git Stash
+Create Git Tags
+Push Tags
+Raise Pull Request
+Review Pull Request
+Merge Pull Request
+🎯 Learning Goal
+
+Master collaborative development workflows using Git.
+
+Day 24 – Maven Build Tool
+📘 Theory
+What is Maven?
+Build Automation
+Maven Architecture
+Maven Lifecycle
+Project Object Model (POM)
+Dependencies
+Plugins
+Repository Types
+Local Repository
+Central Repository
+Packaging (JAR, WAR)
+🛠 Hands-On
+Install Java JDK
+Install Maven
+Configure Environment Variables
+Create Maven Project
+Explore pom.xml
+Add Dependencies
+Compile Project
+Package Project
+Generate JAR
+Generate WAR
+Execute Unit Tests
+🎯 Learning Goal
+
+Build Java applications using Maven.
+
+Day 25 – CI/CD Fundamentals
+📘 Theory
+What is Continuous Integration?
+What is Continuous Delivery?
+What is Continuous Deployment?
+CI/CD Pipeline
+DevOps Automation
+Build Process
+Testing Pipeline
+Deployment Pipeline
+Popular CI/CD Tools
+Jenkins Overview
+🛠 Hands-On
+Design CI/CD Workflow
+Build Manual Pipeline
+Integrate Git with Build Tool
+Execute Maven Build
+Analyze Build Artifacts
+Explore Jenkins Dashboard
+🎯 Learning Goal
+
+Understand Continuous Integration and Continuous Deployment.
+
+Day 26 – Jenkins Installation & Configuration
+📘 Theory
+Introduction to Jenkins
+Jenkins Architecture
+Master-Agent Architecture
+Jenkins Dashboard
+Plugins
+Jenkins Security
+Users & Roles
+Jenkins Jobs
+🛠 Hands-On
+Launch EC2 Instance
+Install Java
+Install Jenkins
+Start Jenkins Service
+Unlock Jenkins
+Install Suggested Plugins
+Create Admin User
+Configure Global Tools
+Install Git Plugin
+Install Maven Plugin
+🎯 Learning Goal
+
+Install and configure Jenkins for CI/CD.
+
+Day 27 – Jenkins Freestyle Jobs
+📘 Theory
+Freestyle Projects
+Source Code Management
+Build Triggers
+Build Environment
+Build Steps
+Post Build Actions
+Artifact Management
+Jenkins Workspace
+🛠 Hands-On
+Create Freestyle Job
+Connect GitHub Repository
+Configure Build Trigger
+Build Java Project
+Archive Artifacts
+Configure Email Notification
+Monitor Build History
+Debug Failed Builds
+🎯 Learning Goal
+
+Automate builds using Jenkins Freestyle Jobs.
+
+Day 28 – Jenkins Pipeline
+📘 Theory
+Pipeline as Code
+Jenkinsfile
+Declarative Pipeline
+Scripted Pipeline
+Pipeline Stages
+Agents
+Environment Variables
+Parameters
+Shared Libraries
+Best Practices
+🛠 Hands-On
+Create Jenkinsfile
+Configure Pipeline Job
+Build Application
+Execute Unit Tests
+Archive Artifacts
+Use Environment Variables
+Add Multiple Pipeline Stages
+Execute Complete Pipeline
+🎯 Learning Goal
+
+Build automated CI/CD pipelines using Jenkins Pipeline.
+
+Day 29 – GitHub Integration & Webhooks
+📘 Theory
+GitHub Webhooks
+Event Triggers
+Automated Builds
+Poll SCM
+Secure Webhooks
+Branch-Based Pipelines
+Continuous Integration Workflow
+🛠 Hands-On
+Configure GitHub Webhook
+Integrate Jenkins with GitHub
+Trigger Automatic Builds
+Push Code Changes
+Verify Pipeline Execution
+Test Failed Builds
+Monitor Build Logs
+Configure Multiple Branch Builds
+🎯 Learning Goal
+
+Automate builds using GitHub Webhooks.
+
+Day 30 – CI/CD End-to-End Project
+📘 Theory
+Complete CI/CD Architecture
+Pipeline Design
+Build Automation
+Testing Automation
+Deployment Strategy
+Artifact Repository
+CI/CD Best Practices
+Production Considerations
+🛠 Hands-On
+Create Git Repository
+Build Java Application
+Configure Maven
+Configure Jenkins Pipeline
+Integrate GitHub
+Configure Webhooks
+Execute Automated Build
+Run Automated Tests
+Generate Build Artifacts
+Deploy Application to EC2
+Verify Deployment
+Troubleshoot Build Failures
+🎯 Learning Goal
+
+Build a complete CI/CD pipeline from source code to deployment.
+
+✅ End of Phase 3 Outcomes
+
+After completing this phase, learners will be able to:
+
+Understand Git architecture and distributed version control.
+Manage repositories using Git and GitHub.
+Work with branches, merges, rebasing, stashing, and pull requests.
+Build Java applications using Maven.
+Understand CI/CD concepts and industry best practices.
+Install and configure Jenkins on AWS EC2.
+Create Freestyle and Pipeline jobs.
+Write Jenkinsfiles using Declarative Pipelines.
+Integrate GitHub with Jenkins using Webhooks.
+Design and implement a complete end-to-end CI/CD pipeline.

@@ -1,0 +1,221 @@
+PHASE 1: FOUNDATION (Days 1–10)
+Day 1 – Introduction to DevOps
+📘 Theory
+What is DevOps?
+Problems in Traditional Software Development
+Agile vs Waterfall vs DevOps
+DevOps Culture
+CALMS Model
+DevOps Lifecycle
+DevOps Engineer Roles & Responsibilities
+Popular DevOps Tools
+🛠 Hands-On
+Map SDLC to DevOps lifecycle
+Explore DevOps toolchain
+Install VS Code
+Install Git
+Install VirtualBox/VMware
+Create Ubuntu Linux VM
+🎯 Learning Goal
+
+Understand the complete DevOps ecosystem.
+
+Day 2 – Linux Basics
+📘 Theory
+Linux Architecture
+Linux Distributions
+Shell vs Terminal
+Linux File System Structure
+Absolute vs Relative Path
+Basic Linux Commands
+🛠 Hands-On
+pwd
+ls
+cd
+mkdir
+rmdir
+touch
+clear
+history
+whoami
+hostname
+🎯 Learning Goal
+
+Navigate Linux confidently.
+
+Day 3 – Linux File Management
+📘 Theory
+Files & Directories
+Hidden Files
+Wildcards
+File Compression
+Searching Files
+🛠 Hands-On
+cp
+mv
+rm
+cat
+less
+more
+head
+tail
+find
+locate
+grep
+zip
+unzip
+tar
+🎯 Learning Goal
+
+Manage Linux files effectively.
+
+Day 4 – Linux Users & Permissions
+📘 Theory
+Linux Users
+Groups
+Root User
+Permission Model
+chmod Numeric & Symbolic
+Ownership
+🛠 Hands-On
+useradd
+passwd
+usermod
+groupadd
+groups
+chmod
+chown
+sudo
+visudo
+🎯 Learning Goal
+
+Secure Linux systems using permissions.
+
+Day 5 – Linux Processes & Package Management
+📘 Theory
+Linux Processes
+Process States
+Daemons
+Services
+Package Managers
+System Logs
+🛠 Hands-On
+ps
+top
+htop
+kill
+killall
+systemctl
+service
+journalctl
+apt
+yum
+🎯 Learning Goal
+
+Manage services and processes.
+
+Day 6 – Shell Scripting
+📘 Theory
+Bash Scripting
+Variables
+Input/Output
+Operators
+Conditions
+Loops
+Functions
+🛠 Hands-On
+Hello World Script
+User Input Script
+Backup Script
+Log Cleanup Script
+Disk Usage Monitor
+CPU Monitoring Script
+🎯 Learning Goal
+
+Automate Linux administration.
+
+Day 7 – Networking Fundamentals
+📘 Theory
+OSI Model
+TCP/IP
+IP Addressing
+DNS
+DHCP
+HTTP vs HTTPS
+SSH
+FTP
+Firewalls
+Ports
+🛠 Hands-On
+ping
+curl
+wget
+traceroute
+nslookup
+dig
+ifconfig/ip
+ss
+netstat
+🎯 Learning Goal
+
+Understand networking required for DevOps.
+
+Day 8 – Cloud Computing Fundamentals
+📘 Theory
+Cloud Computing
+Public vs Private vs Hybrid Cloud
+IaaS
+PaaS
+SaaS
+Regions
+Availability Zones
+AWS Global Infrastructure
+🛠 Hands-On
+Create AWS Free Tier Account
+Explore AWS Console
+Billing Dashboard
+Configure MFA
+Explore Regions
+🎯 Learning Goal
+
+Understand cloud concepts.
+
+Day 9 – AWS IAM
+📘 Theory
+IAM Users
+Groups
+Roles
+Policies
+Least Privilege
+MFA
+AWS CLI
+🛠 Hands-On
+Create IAM User
+Create Group
+Assign Policies
+Install AWS CLI
+Configure CLI
+Test CLI
+🎯 Learning Goal
+
+Secure AWS access.
+
+Day 10 – Amazon EC2
+📘 Theory
+EC2 Overview
+AMI
+Instance Types
+Key Pair
+Security Groups
+Elastic IP
+User Data
+🛠 Hands-On
+Launch EC2
+SSH Connection
+Install Apache
+Host HTML Page
+Elastic IP
+Stop/Start/Reboot Instance
+🎯 Learning Goal
+
+Deploy applications on EC2.

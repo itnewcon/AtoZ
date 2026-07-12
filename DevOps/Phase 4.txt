@@ -1,0 +1,390 @@
+PHASE 4: CONTAINERS & ORCHESTRATION (Days 31–45)
+Day 31 – Introduction to Docker
+📘 Theory
+What is Containerization?
+Virtual Machines vs Containers
+Benefits of Docker
+Docker Architecture
+Docker Engine
+Docker Client & Daemon
+Docker Images
+Docker Containers
+Docker Registry
+Docker Workflow
+Docker Installation
+Common Docker Commands
+🛠 Hands-On
+Install Docker on Linux
+Verify Docker Installation
+Run First Docker Container
+Explore Docker Hub
+Pull Images from Docker Hub
+Run Ubuntu Container
+Run Nginx Container
+Run Apache Container
+Execute Commands Inside Container
+Start, Stop, Restart Containers
+Remove Containers
+Remove Images
+🎯 Learning Goal
+
+Understand Docker architecture and run containerized applications.
+
+Day 32 – Docker Images & Dockerfile
+📘 Theory
+Docker Image Layers
+Image Lifecycle
+Dockerfile Overview
+Dockerfile Instructions
+FROM
+RUN
+COPY
+ADD
+WORKDIR
+CMD
+ENTRYPOINT
+ENV
+EXPOSE
+LABEL
+Image Optimization Best Practices
+🛠 Hands-On
+Create Custom Dockerfile
+Build Docker Image
+Tag Docker Image
+Run Custom Image
+Modify Dockerfile
+Rebuild Image
+Inspect Images
+View Image History
+Export and Import Images
+🎯 Learning Goal
+
+Create reusable Docker images using Dockerfiles.
+
+Day 33 – Docker Volumes, Networks & Docker Hub
+📘 Theory
+Docker Volumes
+Bind Mounts
+Named Volumes
+Data Persistence
+Docker Networking
+Bridge Network
+Host Network
+Overlay Network
+Docker Hub
+Image Versioning
+Private Registries
+🛠 Hands-On
+Create Docker Volume
+Attach Volume to Container
+Verify Persistent Data
+Create Custom Docker Network
+Connect Multiple Containers
+Push Image to Docker Hub
+Pull Image from Docker Hub
+Run Container from Docker Hub
+🎯 Learning Goal
+
+Persist application data and share Docker images.
+
+Day 34 – Docker Compose
+📘 Theory
+Multi-Container Applications
+Docker Compose Overview
+docker-compose.yml Structure
+Services
+Networks
+Volumes
+Environment Variables
+Restart Policies
+Compose Commands
+🛠 Hands-On
+Install Docker Compose
+Create docker-compose.yml
+Deploy Web Application
+Deploy MySQL Database
+Connect Web App with Database
+Scale Containers
+Stop Services
+Remove Services
+🎯 Learning Goal
+
+Deploy and manage multi-container applications.
+
+Day 35 – Introduction to Kubernetes
+📘 Theory
+Why Kubernetes?
+Container Orchestration
+Kubernetes Architecture
+Master and Worker Nodes
+Control Plane Components
+kube-apiserver
+Scheduler
+Controller Manager
+etcd
+kubelet
+kube-proxy
+kubectl
+Kubernetes Objects
+🛠 Hands-On
+Install Minikube
+Install kubectl
+Start Kubernetes Cluster
+Verify Cluster Status
+Explore Kubernetes Dashboard
+Run First Pod
+Explore kubectl Commands
+🎯 Learning Goal
+
+Understand Kubernetes architecture and cluster components.
+
+Day 36 – Pods, ReplicaSets & Deployments
+📘 Theory
+Pods
+ReplicaSets
+Deployments
+Labels
+Selectors
+YAML Manifest Files
+Desired State
+Self-Healing
+Scaling Concepts
+🛠 Hands-On
+Create Pod
+Create ReplicaSet
+Create Deployment
+Scale Deployment
+Delete Pods
+Observe Self-Healing
+Update Deployment
+View Pod Logs
+Describe Resources
+🎯 Learning Goal
+
+Deploy and manage scalable Kubernetes workloads.
+
+Day 37 – Kubernetes Services & Ingress
+📘 Theory
+Kubernetes Services
+ClusterIP
+NodePort
+LoadBalancer
+ExternalName
+Service Discovery
+DNS in Kubernetes
+Ingress Controller
+Ingress Resources
+🛠 Hands-On
+Create ClusterIP Service
+Create NodePort Service
+Expose Deployment
+Access Application
+Install Ingress Controller
+Configure Ingress
+Test Application Routing
+🎯 Learning Goal
+
+Expose Kubernetes applications to internal and external users.
+
+Day 38 – ConfigMaps, Secrets & Namespaces
+📘 Theory
+Configuration Management
+ConfigMaps
+Secrets
+Environment Variables
+Volumes
+Namespaces
+Resource Isolation
+Best Practices
+🛠 Hands-On
+Create ConfigMap
+Mount ConfigMap
+Create Secret
+Store Database Password
+Consume Secret in Pod
+Create Namespace
+Deploy Applications in Different Namespaces
+🎯 Learning Goal
+
+Securely manage application configuration.
+
+Day 39 – Storage, StatefulSets & Persistent Volumes
+📘 Theory
+Persistent Volumes (PV)
+Persistent Volume Claims (PVC)
+Storage Classes
+Dynamic Provisioning
+StatefulSets
+Headless Services
+Stateful Applications
+Data Persistence
+🛠 Hands-On
+Create Persistent Volume
+Create Persistent Volume Claim
+Mount Storage in Pod
+Deploy MySQL using StatefulSet
+Verify Persistent Storage
+Restart Pods and Validate Data
+🎯 Learning Goal
+
+Deploy stateful applications with persistent storage.
+
+Day 40 – Auto Scaling & Rolling Updates
+📘 Theory
+Horizontal Pod Autoscaler (HPA)
+Metrics Server
+Resource Requests
+Resource Limits
+Rolling Updates
+Rollbacks
+Canary Deployment (Overview)
+Blue-Green Deployment (Overview)
+🛠 Hands-On
+Install Metrics Server
+Configure Resource Requests
+Configure Resource Limits
+Create HPA
+Generate CPU Load
+Observe Auto Scaling
+Perform Rolling Update
+Rollback Deployment
+Monitor Rollout Status
+🎯 Learning Goal
+
+Implement highly available and scalable Kubernetes deployments.
+
+Day 41 – Helm Package Manager
+📘 Theory
+What is Helm?
+Helm Architecture
+Charts
+Repositories
+Templates
+Values Files
+Releases
+Chart Versioning
+🛠 Hands-On
+Install Helm
+Add Helm Repository
+Search Charts
+Install NGINX using Helm
+Upgrade Helm Release
+Rollback Release
+Remove Helm Release
+Create Custom Helm Chart
+🎯 Learning Goal
+
+Deploy Kubernetes applications using Helm charts.
+
+Day 42 – Kubernetes Monitoring & Logging
+📘 Theory
+Kubernetes Monitoring
+Cluster Metrics
+Pod Logs
+Events
+Prometheus Overview
+Grafana Overview
+Logging Concepts
+kubectl Debugging Commands
+🛠 Hands-On
+View Pod Logs
+Describe Resources
+Check Cluster Events
+Install Prometheus
+Install Grafana
+Import Kubernetes Dashboard
+Monitor Cluster Resources
+🎯 Learning Goal
+
+Monitor and troubleshoot Kubernetes clusters.
+
+Day 43 – Deploying Microservices on Kubernetes
+📘 Theory
+Microservices Architecture
+Multi-Tier Applications
+Service Communication
+API Gateway (Overview)
+Deployment Strategy
+Container Best Practices
+🛠 Hands-On
+Deploy Frontend Service
+Deploy Backend API
+Deploy MySQL Database
+Configure Services
+Verify Communication
+Test End-to-End Application
+🎯 Learning Goal
+
+Deploy and manage multi-service applications.
+
+Day 44 – Kubernetes Security & Troubleshooting
+📘 Theory
+Kubernetes Security Basics
+RBAC
+Service Accounts
+Network Policies
+Image Security
+Troubleshooting Techniques
+Common Production Issues
+🛠 Hands-On
+Create Service Account
+Configure RBAC
+Apply Network Policy
+Scan Container Images
+Debug Failed Pods
+Troubleshoot CrashLoopBackOff
+Troubleshoot ImagePullBackOff
+🎯 Learning Goal
+
+Secure Kubernetes workloads and troubleshoot production issues.
+
+Day 45 – Kubernetes End-to-End Project
+📘 Theory
+Kubernetes Production Architecture
+High Availability
+Deployment Best Practices
+Disaster Recovery Basics
+Kubernetes Project Workflow
+🛠 Hands-On
+
+Build and deploy a complete microservices application:
+
+Create Docker Images
+Push Images to Docker Hub
+Create Kubernetes Namespace
+Deploy Frontend
+Deploy Backend
+Deploy MySQL Database
+Configure ConfigMaps
+Configure Secrets
+Configure Persistent Volumes
+Create Services
+Configure Ingress
+Configure Horizontal Pod Autoscaler
+Monitor Using Prometheus & Grafana
+Perform Rolling Update
+Perform Rollback
+Troubleshoot Application
+Validate End-to-End Deployment
+🎯 Learning Goal
+
+Design, deploy, monitor, scale, secure, and troubleshoot a production-ready Kubernetes application.
+
+✅ End of Phase 4 Outcomes
+
+After completing this phase, learners will be able to:
+
+Understand Docker architecture and containerization concepts.
+Build optimized Docker images using Dockerfiles.
+Manage Docker volumes, networks, and image repositories.
+Deploy multi-container applications using Docker Compose.
+Understand Kubernetes architecture and core components.
+Deploy, scale, and manage applications using Pods, ReplicaSets, and Deployments.
+Expose applications using Services and Ingress.
+Manage configurations using ConfigMaps and Secrets.
+Deploy stateful applications with Persistent Volumes and StatefulSets.
+Configure Horizontal Pod Autoscaling and perform rolling updates.
+Package and deploy applications using Helm.
+Monitor Kubernetes clusters with Prometheus and Grafana.
+Deploy complete microservices-based applications on Kubernetes.
+Secure and troubleshoot Kubernetes workloads using industry best practices.
