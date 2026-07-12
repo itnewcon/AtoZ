@@ -1,6 +1,6 @@
 PHASE 1: FOUNDATION (Days 1–10)
 Day 1 – Introduction to DevOps
-📘 Theory
+Theory
 What is DevOps?
 Problems in Traditional Software Development
 Agile vs Waterfall vs DevOps
